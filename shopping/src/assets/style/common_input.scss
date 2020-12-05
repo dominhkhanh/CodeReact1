@@ -1,0 +1,36 @@
+.quantity-input {
+    width: 100px;
+    margin: 10px 0px !important;
+    &>div {
+        display: flex;
+        height: 30px;
+        width: 30px;
+        border: 1px solid #d2d2d2;
+        justify-content: center;
+        align-items: center;
+    }
+    .minus {
+        border-radius: 100px 0 0 100px;
+        cursor: pointer;
+        font-weight: bold;
+        &:hover {
+            background: #d2d2d2;
+        }
+    }
+    .plus {
+        border-radius: 0px 100px 100px 0px;
+        cursor: pointer;
+        font-weight: bold;
+        &:hover {
+            background: #d2d2d2;
+        }
+    }
+    .quantity {
+        padding: 0;
+        input {
+            text-align: center;
+            width: 100%;
+            display: block;
+        }
+    }
+}
